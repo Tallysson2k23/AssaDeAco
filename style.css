@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-bottom: 3px solid #ff4500;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ff4500;
+  }
+  
+  main {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .rider-card {
+    background-color: #1f1f1f;
+    border: 2px solid #ff4500;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px #ff450080;
+  }
+  
+  .rider-card h2 {
+    color: #ffd700;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f1f1f;
+    color: #888;
+  }
+  
