@@ -47,17 +47,117 @@ body {
     background-color: #1f1f1f;
     color: #888;
   }
-  .banner {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
+  .hero-banner {
+    background-image: url('https://i.postimg.cc/5tNRmq99/Whats-App-Image-2025-04-08-at-22-06-02.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .banner-img {
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 3rem;
+    color: #ff4500;
+    margin: 0;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .intro-section {
+    display: flex;
+    height: 400px;
     width: 100%;
-    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  
+  .intro-image {
+    flex: 1;
+    background-image: url('https://i.postimg.cc/5tNRmq99/Whats-App-Image-2025-04-08-at-22-06-02.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .intro-text {
+    flex: 1;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .intro-text h1 {
+    font-size: 3rem;
+    color: #ff4500;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .rank-1 {
+    border-color: gold;
+    box-shadow: 0 0 15px gold;
+  }
+  .rank-2 {
+    border-color: silver;
+    box-shadow: 0 0 15px silver;
+  }
+  .rank-3 {
+    border-color: #cd7f32; /* bronze */
+    box-shadow: 0 0 15px #cd7f32;
+  }
+  .riders-pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+  }
+  
+  .top-rank {
+    margin-bottom: 2rem;
+  }
+  
+  .bottom-ranks {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .corner-image {
+    position: absolute;
+    top: 10px;
+    left: 10px; /* ← aqui está a mudança */
+    width: 80px;
+    height: 80px;
+    z-index: 10;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(255, 69, 0, 0.5);
+  }
+  
+  .corner-image img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
   
